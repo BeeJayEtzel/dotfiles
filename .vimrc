@@ -16,6 +16,7 @@ set autoindent
 
 "Remaps
 inoremap kj <Esc>
+inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
 
 "HTML autocommands
 autocmd FileType html inoremap ;h1 <h1></h1><Esc>cit
@@ -32,3 +33,6 @@ autocmd FileType html inoremap ;html <!DOCTYPE html><Esc>o<html lang="en"><Esc>o
 "Java autocommands
 autocmd FileType java inoremap ;sop System.out.println();<Esc>hhci)
 autocmd FileType java inoremap ;psvm public static void main(String[] args){<CR>}<Esc>ci}<CR><Up><Tab>
+
+"PHP autocommands
+autocmd FileType php inoremap ;func public function(<++>)<CR>{<CR><CR>}<Esc>kkkkwwwi 
