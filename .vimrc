@@ -17,6 +17,11 @@ set autoindent
 "Remaps
 inoremap kj <Esc>
 inoremap <Space><Space> <Esc>/<++><Enter>"_c4l
+inoremap {} {}<Left>
+inoremap () ()<Left>
+inoremap [] []<Left>
+inoremap '' ''<Left>
+inoremap "" ""<Left>
 
 "HTML autocommands
 autocmd FileType html inoremap ;h1 <h1></h1><Esc>cit
