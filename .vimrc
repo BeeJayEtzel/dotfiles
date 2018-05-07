@@ -40,4 +40,4 @@ autocmd FileType java inoremap ;sop System.out.println();<Esc>hhci)
 autocmd FileType java inoremap ;psvm public static void main(String[] args){<CR>}<Esc>ci}<CR><Up><Tab>
 
 "PHP autocommands
-autocmd FileType php inoremap ;func public function(<++>)<CR>{<CR><CR>}<Esc>kkkkwwwi 
+autocmd FileType php inoremap ;func public function(<++>)<CR>{<CR><CR>}<Esc>ci}<Tab><Tab><++><Esc>kkkkkwwwwwi 
