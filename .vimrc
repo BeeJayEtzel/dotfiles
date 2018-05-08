@@ -9,6 +9,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'tomasiser/vim-code-dark'
 Plugin 'kien/ctrlp.vim'
+Plugin 'mattn/emmet-vim'
 
 call vundle#end()
 
@@ -20,8 +21,17 @@ filetype plugin indent on
 
 "-----Plugin Mappings-----
 
+
+
+
 "-----NerdTree-----
 nnoremap <C-B> :NERDTreeToggle<CR>
+
+"-----Emmett-----
+let g:user_emmet_leader_key='<C-H>'
+
+
+
 
 "-----End Plugin Mappings-----
 
