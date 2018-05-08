@@ -1,9 +1,38 @@
+"-----Vundle-----
 set nocompatible
-filetype plugin on
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tomasiser/vim-code-dark'
+Plugin 'kien/ctrlp.vim'
+
+call vundle#end()
+
+filetype plugin indent on
+"-----End Vundle-----
 
 
+
+
+"-----Plugin Mappings-----
+
+"-----NerdTree-----
+nnoremap <C-B> :NERDTreeToggle<CR>
+
+"-----End Plugin Mappings-----
+
+
+
+
+
+"------General Settings-----
 "Turn on syntax hilighting
 syntax on
+colorscheme codedark
 
 "Turn on line numbers
 set number relativenumber
@@ -40,4 +69,4 @@ autocmd FileType java inoremap ;sop System.out.println();<Esc>hhci)
 autocmd FileType java inoremap ;psvm public static void main(String[] args){<CR>}<Esc>ci}<CR><Up><Tab>
 
 "PHP autocommands
-autocmd FileType php inoremap ;func public function(<++>)<CR>{<CR><CR>}<Esc>ci}<Tab><Tab><++><Esc>kkkkkwwwwwi 
+autocmd FileType php inoremap ;func public function<++>(<++>)<CR>{<CR><CR>}<Esc>ci}<Tab><Tab><++><Esc>/<++><Enter>"_c4l<Space>
