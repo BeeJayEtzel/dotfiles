@@ -11,28 +11,45 @@ snippet html:5
 		${1}	
 	</body>
 	</html>
-
-	
+snippet div
+	<div class="${1}">${2}</div>
+snippet h1
+	<h1>${1}</h1>
 snippet h2
 	<h2>${1}</h2>
-
 snippet h3
 	<h3>${1}</h3>
-
 snippet h4
 	<h4>${1}</h4>
-
 snippet h5
 	<h5>${1}</h5>
-
 snippet h6
 	<h6>${1}</h6>
-
 snippet a
 	<a href="${1}">${2}</a>
-
 snippet p
 	<p>${1}</p>
-
+snippet img
+	<img src="${1}" alt="${2}">
 snippet link:css
 	<link rel="stylesheet" type="text/css" href="${1}">
+snippet script
+	<script>${1}</script>
+snippet script:src
+	<script src="${1}"></script>
+snippet form:get
+	<form action="${1}" method="get">
+		${2}
+	</form>
+snippet form:post
+	<form action="${1}" method="post">
+		${2}
+	</form>
+snippet input:text
+	<input type="text" name="${1}" id="${2}">
+snippet input:t
+	<input type="text" name="${1}" id="${2}">
+snippet input:password
+	<input type="password" name="${1}" id="${2}">
+snippet input:p
+	<input type="password" name="${1}" id="${2}">

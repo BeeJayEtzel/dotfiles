@@ -2,3 +2,12 @@ snippet func
 	public function ${1}(){
 		${2}
 	}
+snippet for
+	for($i = 0; i < ${1}; $i++)
+	{
+		${2}	
+	}
+snippet rg
+	Route::get('${1}', '${2}');
+snippet rp
+	Route::post('${1}', '${2}');

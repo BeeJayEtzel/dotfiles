@@ -2,9 +2,13 @@ snippet class
 	public class ${1}{
 		${2}
 	}
-
 snippet psvm
 	public static void main(String[] args){
 		${1}	
 	}
-
+snippet sop
+	System.out.println(${1});
+snippet for
+	for(int ${1:} = 0; $1 < ${2}; $1++){
+		${3}
+	}
