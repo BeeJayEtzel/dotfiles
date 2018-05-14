@@ -1,0 +1,360 @@
+snippet pos
+	position: relative;
+snippet pos:s
+	position: static;
+snippet pos:a
+	position: absolute;
+snippet pos:r
+	position: relative;
+snippet pos:f
+	position: fixed;
+snippet t
+	top: ${1};
+snippet t:a
+	top:auto;
+snippet r
+	right: ${1};
+snippet r:a
+	right: auto;
+snippet b
+	bottom: ${1};
+snippet b:a
+	bottom: auto;
+snippet l
+	left: ${1};
+snippet l:a
+	left: auto;
+snippet z
+	z-index: ${1};
+snippet z:a
+	z-index: auto;
+snippet fl
+	float: left;
+snippet fl:n
+	float: none;
+snippet fl:l
+	float: left;
+snippet fl:r
+	float: right;
+snippet cl
+	clear: both;
+snippet cl:n
+	clear: none;
+snippet cl:l
+	clear: left;
+snippet cl:r
+	clear: right;
+snippet cl:b
+	clear: both;
+snippet d
+	display: block;
+snippet d:n
+	display: none;
+snippet d:b
+	display: block;
+snippet d:f
+	display: flex;
+snippet d:if
+	display: inline-flex;
+snippet d:i
+	display: inline;
+snippet d:ib
+	display: inline-block;
+snippet d:li
+	display: list-item;
+snippet d:ri
+	display: run-in;
+snippet d:cp
+	display: compact;
+snippet d:tb
+	display: table;
+snippet d:itb
+	display: inline-table;
+snippet d:tbcp
+	display: table-caption;
+snippet d:tbcl
+	display: table-column;
+snippet d:tbclg
+	display: table-column-group;
+snippet d:tbhg
+	display: table-header-group;
+snippet d:tbfg
+	display: table-footer-group;
+snippet d:tbr
+	display: table-row;
+snippet d:tbrg
+	display: table-row-group;
+snippet d:tbc
+	display: table-cell;
+snippet d:rb
+	display: ruby;
+snippet d:rbb
+	display: ruby-base;
+snippet d:rbbg
+	display: ruby-base-group;
+snippet d:rbt
+	display: ruby-text;
+snippet d:rbtg
+	display: ruby-text-group;
+snippet v
+	visibility: hidden;
+snippet v:v
+	visibility: visible;
+snippet v:h
+	visibility: hidden;
+snippet v:c
+	visibility: collapse;
+snippet ov
+	overflow: hidden;
+snippet ov:v
+	overflow: visible;
+snippet ov:h
+	overflow: hidden;
+snippet ov:s
+	overflow: scroll;
+snippet ov:a
+	overflow: auto;
+snippet ovx
+	overflow-x: hidden;
+snippet ovx:v
+	overflow-x: visible;
+snippet ovx:h
+	overflow-x: hidden;
+snippet ovx:s
+	overflow-x: scroll;
+snippet ovx:a
+	overflow-x: auto;
+snippet ovy
+	overflow-y: hidden;
+snippet ovy:v
+	overflow-y: visible;
+snippet ovy:h
+	overflow-y: hidden;
+snippet ovy:s
+	overflow-y: scroll;
+snippet ovy:a
+	overflow-y: auto;
+snippet ovs
+	overflow-style: scrollbar;
+snippet ovs:a
+	overflow-style: auto;
+snippet ovs:s
+	overflow-style: scrollbar;
+snippet ovs:p
+	overflow-style: panner;
+snippet ovs:m
+	overflow-style: move;
+snippet ovs:mq
+	overflow-style: marquee;
+snippet zoo
+	zoom: 1;
+snippet zm
+	zoom: 1;
+snippet cp
+	clip: ${1};
+snippet cp:a
+	clip: auto;
+snippet cp:r
+	clip: rect(top right bottom left);
+snippet rsz
+	resize: ${1};
+snippet rsz:n
+	resize: none;
+snippet rsz:b
+	resize: both;
+snippet rsz:h
+	resize: horizontal;
+snippet rsz:v
+	resize: vertical;
+snippet cur
+	cursor: ${pointer};
+snippet cur:a
+	cursor: auto;
+snippet cur:d
+	cursor: default;
+snippet cur:c
+	cursor: crosshair;
+snippet cur:ha
+	cursor: hand;
+snippet cur:he
+	cursor: help;
+snippet cur:m
+	cursor: move;
+snippet cur:p
+	cursor: pointer;
+snippet m
+	margin: ${1};
+snippet m:a
+	margin: auto;
+snippet mt
+	margin-top: ${1};
+snippet mt:a
+	margin-top: auto;
+snippet mr
+	margin-right: ${1};
+snippet mr:a
+	margin-right: auto;
+snippet mb
+	margin-bottom: ${1};
+snippet mb:a
+	margin-bottom: auto;
+snippet ml
+	margin-left: ${1};
+snippet ml:a
+	margin-left: auto;
+snippet p
+	padding: ${1};
+snippet pt
+	padding-top: ${1};
+snippet pr
+	padding-right: ${1};
+snippet pb
+	padding-bottom: ${1};
+snippet pl
+	padding-left: ${1};
+snippet bxz
+	box-sizing: border-box;
+snippet bxz:cb
+	box-sizing: content-box;
+snippet bxz:bb
+	box-sizing: border-box;
+snippet bxsh
+	box-shadow: inset hoff voff blur color;
+snippet bxsh:r
+	box-shadow: inset hoff voff blur spread rgb(0, 0, 0);
+snippet bxsh:ra
+	box-shadow: inset h v blur spread rgba(0, 0, 0, .5);
+snippet bxsh:n
+	box-shadow: none;
+snippet w
+	width: ${1};
+snippet w:a
+	width: auto;
+snippet h
+	height: ${1};
+snippet h:a
+	height: auto;
+snippet maw
+	max-width: ${1};
+snippet maw:n
+	max-width: none;
+snippet mah
+	max-height: ${1};
+snippet mah:n
+	max-height: none;
+snippet miw
+	min-width: ${1};
+snippet mih
+	min-height: ${1};
+snippet f
+	font: ;
+snippet f+
+	font: 1em Arial,sans-serif;
+snippet fw
+	font-weight: ${1};
+snippet fw:n
+	font-weight: normal;
+snippet fw:b
+	font-weight: bold;
+snippet fw:br
+	font-weight: bolder;
+snippet fw:lr
+	font-weight: lighter;
+snippet fs
+	font-style: ${italic};
+snippet fs:n
+	font-style: normal;
+snippet fs:i
+	font-style: italic;
+snippet fs:o
+	font-style: oblique;
+snippet fv
+	font-variant: ${1};
+snippet fv:n
+	font-variant: normal;
+snippet fv:sc
+	font-variant: small-caps;
+snippet fz
+	font-size: ${1};
+snippet fza
+	font-size-adjust: ${1};
+snippet fza:n
+	font-size-adjust: none;
+snippet ff
+	font-family: ${1};
+snippet ff:s
+	font-family: serif;
+snippet ff:ss
+	font-family: sans-serif;
+snippet ff:c
+	font-family: cursive;
+snippet ff:f
+	font-family: fantasy;
+snippet ff:m
+	font-family: monospace;
+snippet ff:a
+	font-family:  Arial, "Helvetica Neue", Helvetica, sans-serif;
+snippet ff:t
+	font-family:  "Times New Roman", Times, Baskerville, Georgia, serif;
+snippet ff:v
+	font-family:  Verdana, Geneva, sans-serif;
+snippet fef
+	font-effect: ${1};
+snippet fef:n
+	font-effect: none;
+snippet fef:eg
+	font-effect: engrave;
+snippet fef:eb
+	font-effect: emboss;
+snippet fef:o
+	font-effect: outline;
+snippet fem
+	font-emphasize: ${1};
+snippet femp
+	font-emphasize-position: ${1};
+snippet femp:b
+	font-emphasize-position: before;
+snippet femp:a
+	font-emphasize-position: after;
+snippet fems
+	font-emphasize-style: ${1};
+snippet fems:n
+	font-emphasize-style: none;
+snippet fems:ac
+	font-emphasize-style: accent;
+snippet fems:dt
+	font-emphasize-style: dot;
+snippet fems:c
+	font-emphasize-style: circle;
+snippet fems:ds
+	font-emphasize-style: disc;
+snippet fsm
+	font-smooth: ${1};
+snippet fsm:a
+	font-smooth: auto;
+snippet fsm:n
+	font-smooth: never;
+snippet fsm:aw
+	font-smooth: always;
+snippet fst
+	font-stretch: ${1};
+snippet fst:n
+	font-stretch: normal;
+snippet fst:uc
+	font-stretch: ultra-condensed;
+snippet fst:ec
+	font-stretch: extra-condensed;
+snippet fst:c
+	font-stretch: condensed;
+snippet fst:sc
+	font-stretch: semi-condensed;
+snippet fst:se
+	font-stretch: semi-expanded;
+snippet fst:e
+	font-stretch: expanded;
+snippet fst:ee
+	font-stretch: extra-expanded;
+snippet fst:ue
+	font-stretch: ultra-expanded;
+
+
